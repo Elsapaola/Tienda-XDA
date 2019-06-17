@@ -1,0 +1,40 @@
+.imagen_fondo {
+    background-image: url(../img/foto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    padding-bottom: 35rem;
+}
+
+.container h1{
+    padding: 2rem!important;
+}
+
+.container p{
+    padding: 2rem!important;
+    color: $granite-grey;
+    font-weight: $regular;
+    line-height: 1.4;
+}
+
+.container-newsletter {
+    background-color: $smoke-black;
+    height: 150px!important;
+    padding: 2rem;
+    margin-left: -5px;
+    width: 93%;
+}
+
+.container_contenido {
+    padding: 2rem;
+}
+
+.container_title_vertical {
+    transform: rotate(90deg);
+    font-family: $font-stack;
+    font-weight: $bold; 
+    font-size: $large;
+    margin-left: 339px;
+    margin-right: -121px;
+
+}

@@ -1,0 +1,55 @@
+$light: 300;
+$regular: 400;
+$bold: 700;
+$black: 900;
+
+$font-stack: 'Old Standard TT', serif;
+$font-titulo: 'Raleway', sans-serif;
+
+$xxx-large: 3.5rem;
+$xx-large: 2.3rem;
+$x-large: 1.8rem;
+$large: 1.4rem;
+$medium: 1rem;
+$small: 0.7rem;
+$x-small: 0.5rem;
+
+h1 {
+    font-family: $font-stack;
+    font-weight: $black; 
+    font-size: $xxx-large;
+    margin-top: 9rem;
+}
+
+h2 {
+    font-family: $font-stack;
+    font-weight: $black; 
+    font-size: $xx-large;
+    color: $white;
+}
+
+h3 {
+    font-size: $xx-large; 
+    font-family: $font-titulo;
+}
+
+h4 {
+    font-weight: $regular; 
+    font-family: $font-stack;
+    
+}
+
+
+h5 {
+    font-weight: $bold; 
+    font-family: $font-stack;
+    font-size: $large; 
+}
+
+
+p {
+    padding: 2rem!important;
+    color: $granite-grey;
+    font-weight: $regular;
+    line-height: 1.4;
+}
